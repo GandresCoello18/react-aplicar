@@ -68,12 +68,12 @@ const cambiar = async (parametro: String) => {
                         <Form>
                             <Form.Group controlId="formBasicEmail">
                                 <Form.Label>Cambiar Email:</Form.Label>
-                                <Form.Control type="email" id='email' placeholder={data.map( (valor: any) => valor.email)} />
+                                <Form.Control type="email" id='email' placeholder={data.map( (valor: any) => valor.email)} defaultValue={data.map( (valor: any) => valor.email)} />
                             </Form.Group>
 
                             <Form.Group controlId="formBasicPassword">
                                 <Form.Label>Cambiar Nombre:</Form.Label>
-                                <Form.Control type="text" id='nombre' placeholder={data.map( (valor: any) => valor.nombre)} />
+                                <Form.Control type="text" id='nombre' placeholder={data.map( (valor: any) => valor.nombre)} defaultValue={data.map( (valor: any) => valor.nombre)} />
                             </Form.Group>
 
                             <Button variant="primary" type="button" onClick={ () => cambiar(parametro)}>
