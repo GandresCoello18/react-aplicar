@@ -1,44 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React App - Aplicar a [Tus10segundos](http://tus10segundos.com/)
+Frontend creado en [React](https://es.reactjs.org/) para consumir la [api aplicar](https://github.com/GandresCoello18/api-aplicar) desarrollado con **Node** y **TypeScript**
 
-## Available Scripts
+## Comenzando 🚀
 
-In the project directory, you can run:
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-### `npm start`
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Pre-requisitos 📋
 
-### `npm test`
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Tener instalado Node Js en tu ordenador, puedes obtener desde el sitio oficial para diferentes SOS._
+* [Node js](https://nodejs.org/es/) - Entorno de ejecucion javascript
 
-### `npm run build`
+### Instalación 🔧
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Abrir una terminal o linea de comandos apuntando a la raiz de la carpeta y ejecutar.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm install
+```
+o
+```
+yarn install
+```
+_Despues que termine la instacion proceda a ejecutar el siguiente comando para correr la api en ambiente de desarrollo o local._
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn dev
+```
+_Pàra corrar en production ejecutar
+```
+yarn start
+```
 
-### `npm run eject`
+## Ejecutando las pruebas ⚙️
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Para hacer test del codido, puedes hacer uso del siguiente script._
+```
+react-scripts eject
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Despliegue 📦
+Contiene configurado ( integracion continua ) con [Heroku](https://www.heroku.com/) - asi cada vez que se realize un cambio en la rama **Master** de gitHub se creara el deploy.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Construido con 🛠️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Para el desarrollo de esta app se utilizo las siguientes herramientas._
 
-## Learn More
+* [Create-react-app](https://expressjs.com/) - Express js, un framework de js multi proposito.
+* [TypeScript](https://www.typescriptlang.org/) - Mas info en el sitio
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_Puedes instalar typescript de forma global con el siguiente comando
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install -g typescript
+```
+
+## Autores ✒️
+
+* **Andrés Coello** - *Developer full stack* - [Andres Coello](https://www.instagram.com/coellogoyes/)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT)
+
+## Expresiones de Gratitud 🎁
+
+* Pasate por mi perfil para ver algun otro proyecto 📢
+* Desarrollemos alguna app juntos, puedes escribirme en mis redes. 
+* Muchas gracias por pasarte por este proyecto 🤓.
+
+
+---
+⌨️ con ❤️ por [Andres Coello](https://www.instagram.com/coellogoyes/) 😊
